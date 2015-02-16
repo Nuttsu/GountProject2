@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maii.gountproject2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowFoodUric"
+            android:label="@string/title_activity_show_food_uric" >
+            <intent-filter>
+                <action android:name="com.example.maii.gountproject2.activity_show_food_uric" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowPillsList"
+            android:label="@string/title_activity_show_pills_list" >
+            <intent-filter>
+                <action android:name="com.example.maii.gountproject2.ShowPillsList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddProfile"
+            android:label="@string/title_activity_add_profile" >
+            <intent-filter>
+                <action android:name="com.example.maii.gountproject2.AddProfile" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PillDetail"
+            android:label="@string/title_activity_pill_detail" >
+        </activity>
+        <activity
+            android:name=".AddPainScaleDiary"
+            android:label="@string/title_activity_pain_scale_diary" >
+            <intent-filter>
+                <action android:name="com.example.maii.gountproject2.AddPainScaleDiary" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddFoodUricDiary"
+            android:label="@string/title_activity_add_food_uric_diary" >
+            <intent-filter>
+                <action android:name="com.example.maii.gountproject2.AddFoodUricDiary" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MedicineList_userAdd"
+            android:label="@string/title_activity_medicine_list_user_add" >
+            <intent-filter>
+                <action android:name="com.example.maii.gountproject2.MedicineList_userAdd" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lab"
+            android:label="@string/title_activity_lab" >
+        </activity>
+        <activity
+            android:name=".LabCalculate"
+            android:label="@string/title_activity_lab_calculate" >
+            <intent-filter>
+                <action android:name="com.example.maii.gountproject2.LabCalculate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LabShowDetail"
+            android:label="@string/title_activity_lab_show_detail" >
+        </activity>
+        <intent-filter>
+            <action android:name="com.example.maii.gountproject2.LabShowDetail" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </application>
+
+</manifest>
